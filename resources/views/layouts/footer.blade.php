@@ -1,7 +1,7 @@
 <script src="https://kit.fontawesome.com/4d0b4c932e.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="styles.css" />
-<div class="main"></div>
-<footer id="Footer"style="background-color:#b3b3cc;" class="page-footer font-small stylish-color-dark pt-4">
+
+
+<footer id="Footer"style="background-color:#b3b3cc;" class="page-footer font-small stylish-color-dark pt-4 mt-5">
   <div style="background-color:#b3b3cc;" class="container text-center text-md-left">
     <div class="row">
       <div class="col-md-4 mx-auto">

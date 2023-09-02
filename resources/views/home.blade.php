@@ -40,10 +40,10 @@
     </button>
   </div>
 
-  <div class="container mt-5">
+  <div class="container mt-5" id="course">
     <h1 class="text-center mb-4">Course</h1>
 
-    <div class="row">
+    <div class="row coursecard">
         <div class="col-lg-4">
             <div class="card" style="width: 20rem;">
                 <img src="{{asset('img/course1.jpg')}}" class="card-img-top" alt="...">
@@ -67,17 +67,135 @@
               </div>
         </div>
         <div class="col-lg-4">
-            <div class="card" style="width: 20rem;">
+             <div class="card" style="width: 20rem;">
                 <img src="{{asset('img/course3.png')}}" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <p>Free Course</p>
+                  <h5 class="card-title">React JS Tutorials For Beginners</h5>
+                  <p class="card-text">React is a free and open-source front-end JavaScript library. This series will cover React from starting to the end. We will learn react from the ground up!</p>
+                  <a href="#" class="btn btn-primary mt-4">Start Watching</a>
                 </div>
               </div>
         </div>
     </div>
+
+    
   
+  </div>
+
+  <div class="container Tutorials" id="tutorials">
+    <h1 class="text-center mb-5">Tutorials</h1>
+    <div class="row tutocard">
+        <div class="col-lg-3">
+            <div class="card" style="width: 20rem;">
+
+                <img src="{{asset('img/python.webp')}}" class="card-img-top" alt="...">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Python Tutorial</h5>
+                  <a href="#" class="btn btn-primary">Start Learning</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card" style="width: 20rem;">
+                <img src="{{asset('img/c.webp')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">C Tutorial</h5>
+                  <a href="#" class="btn btn-primary">Start Learning</a>
+                </div>
+              
+              </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card" style="width: 20rem;">
+                <img src="{{asset('img/cpp.webp')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">C++ Tutorial</h5>
+                  <a href="#" class="btn btn-primary">Start Learning</a>
+                </div>
+              
+              </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card" style="width: 20rem;">
+                <img src="{{asset('img/java.webp')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Java Tutorial</h5>
+                  <a href="#" class="btn btn-primary">Start Learning</a>
+                </div>
+              
+              </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card" style="width: 20rem;">
+                <img src="{{asset('img/js.webp')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Javascript Tutorial</h5>
+                  <a href="#" class="btn btn-primary">Start Learning</a>
+                </div>
+              
+              </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="card" style="width: 20rem;">
+                <img src="{{asset('img/css.webp')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CSS Tutorial</h5>
+                  <a href="#" class="btn btn-primary">Start Learning</a>
+                </div>
+              
+              </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="card" style="width: 20rem;">
+                <img src="{{asset('img/php.webp')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PHP Tutorial</h5>
+                  <a href="#" class="btn btn-primary">Start Learning</a>
+                </div>
+              
+              </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="card" style="width: 20rem;">
+                <img src="{{asset('img/html.webp')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">HTML Tutorial</h5>
+                  <a href="#" class="btn btn-primary">Start Learning</a>
+                </div>
+              
+              </div>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="container testmonials" id="testmonials">
+    <h1 class="text-center">Testimonials</h1>
+<div class="row">
+    <div class="col-lg-6">
+        <div class="mycol">
+        <h3>,,</h3>
+        <p> don't have words to thank this man, I'm really grateful to have this channel and website in my daily routine. If you're a mere beginner, then you can trust this guy and can put your time into his content. I can assure you that it'll be worth it.</p>
+        <p class="rk">Mohit Kumar</p>
+        <p class="webt">Web Developer</p>
+    </div>
+    </div>
+
+    <div class="col-lg-6">
+        <div class="mycol">
+        <h3>,,</h3>
+        <p> For everyone who wants to level up their #Coding and #Dev skills - seriously, this channel is for you! Both basic and advanced stacks are covered on this channel, and one can learn according to his skill levels. And the icing on the cake is, everything is available for free.</p>
+        <p class="rk">Rakesh Shetty</p>
+        <p class="webt">Web Developer</p>
+    </div>
+    </div>
+</div>
   </div>
 
 @endsection

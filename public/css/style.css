@@ -46,3 +46,124 @@
     height: 33rem !important;
     object-fit: cover;
   }
+
+
+  .coursecard .card {
+    height: 31rem !important;
+    background: #1F2937 !important;
+    color: white !important;
+    text-align: center !important;
+  }
+
+  .coursecard .card .btn{
+    background: #9333EA !important;
+    border: none !important;
+  }
+
+  .coursecard .card .btn:hover{
+    background: white !important;
+    color: #9333EA !important;
+    border: 1px solid #9333EA  !important;
+  }
+
+  .tutocard .card{
+  
+    background: #1E293B !important;
+    color: white !important;
+    text-align: center;
+    width: 15rem !important;
+    border: 1px solid black !important;
+  }
+
+  .tutocard .card img{
+    width: 6rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .tutocard .card .btn{
+    background: #9333EA !important;
+    border: none !important;
+    margin-top: 1rem;
+  }
+
+  .tutocard .card .btn:hover{
+    background: white !important;
+    color: #9333EA !important;
+    border: 1px solid #9333EA  !important;
+  }
+
+  .col-lg-3 
+  {
+    margin-bottom: 3rem;
+  }
+
+  .testmonials h1
+  {
+    margin-bottom: 3rem;
+  }
+
+  .testmonials .mycol   
+  {
+    background: #374151 !important;
+    margin-right: 1rem;
+    padding: 1rem;
+    color: #d0dbdd !important;
+    border-radius: 1rem;
+  }
+
+  .webt
+  {
+    margin-top: -10px;
+  }
+
+  .rk
+  {
+    color: white !important;
+    font-size: 1.1rem !important;
+    font-weight: bolder;
+  }
+
+  
+  
+  #testmonials
+  {
+    margin-top: 7rem !important;
+  }
+
+  
+  #tutorials
+  {
+    margin-top: 7rem !important;
+  }
+
+  #course .col-lg-4
+  {
+    margin-bottom: 4rem !important;
+  }
+
+  #Footer a{
+    text-decoration: none !important;
+    color: #1E293B !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    /* CSS rules for screens with a maximum width of 768 pixels */
+    #course .col-lg-4 .card{
+        width: 100% !important;
+        height: 100% !important;
+      }
+
+    #tutorials .col-lg-3 .card{
+        width: 100% !important;
+        height: 100% !important;
+      }
+
+      #testmonials .col-lg-6{
+        margin-bottom: 1rem;
+      }
+
+  }
+  
+ 
